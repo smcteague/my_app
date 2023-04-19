@@ -40,6 +40,9 @@ export function updateStoreStateFromController(pageName, newState) {
 const desktopModeProps = {
   ...{
   "Home": {
+    "Flex5": {
+      "callbacks": {}
+    },
     "Flex1": {
       "callbacks": {}
     },
@@ -49,9 +52,18 @@ const desktopModeProps = {
     "Flex3": {
       "callbacks": {}
     },
+    "Flex7": {
+      "callbacks": {}
+    },
+    "Div2": {
+      "callbacks": {}
+    },
+    "Flex8": {
+      "callbacks": {}
+    },
     "TextBox1": {
       "custom": {
-        "text": "Sample Site"
+        "text": "Webfolio X"
       },
       "callbacks": {
         "onClick": [
@@ -66,7 +78,81 @@ const desktopModeProps = {
     },
     "TextBox2": {
       "custom": {
-        "text": "Log In"
+        "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox3": {
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox5": {
+      "custom": {
+        "text": "Portfolio"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox6": {
+      "custom": {
+        "text": "Pages"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image6": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/down-arrow-snip.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image7": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/shopping-cart-snip.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox7": {
+      "custom": {
+        "text": "0"
       },
       "callbacks": {
         "onClick": [
