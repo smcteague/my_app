@@ -7386,5 +7386,55 @@
       }
     },
     "id": "cf2a5069-4381-4f48-bcf4-0e329de8cb46"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "slice": {
+      "parent": {
+        "id": "body",
+        "index": 1
+      }
+    },
+    "id": "c94de190-bd0b-4d0a-8acf-7c526a55e4a6"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "slice": {
+      "parent": {
+        "id": "c94de190-bd0b-4d0a-8acf-7c526a55e4a6",
+        "index": 1
+      }
+    },
+    "id": "64df8fd7-d048-48b1-8408-43ad3f16019c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "slice": {
+      "parent": {
+        "id": "c94de190-bd0b-4d0a-8acf-7c526a55e4a6",
+        "index": 1
+      }
+    },
+    "id": "64df8fd7-d048-48b1-8408-43ad3f16019c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "slice": {
+      "parent": {
+        "id": "64df8fd7-d048-48b1-8408-43ad3f16019c",
+        "index": 2
+      }
+    },
+    "id": "cf2a5069-4381-4f48-bcf4-0e329de8cb46"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "slice": {
+      "parent": {
+        "id": "64df8fd7-d048-48b1-8408-43ad3f16019c",
+        "index": 4
+      }
+    },
+    "id": "98e42ca0-dd58-434d-b112-edca4e8adeec"
   }
 ]
